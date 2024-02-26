@@ -3,16 +3,16 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <div className="mt-[50px]">
+    <div className="mt-[150px] max-w-[1240px] w-full mx-auto">
       <Image src="/assets/BridgeGood.png" width={126} height={20} alt="bridgeGood"/>
       <div className="flex gap-[15px] mt-[10px] items-center">
-        <a>
+        <a className="cursor-pointer">
           <Image src="/assets/facebook.svg" width={35} height={35}/>
         </a>
-        <a>
+        <a className="cursor-pointer">
           <Image src="/assets/instagram.svg" width={44} height={44} />
         </a>
-        <a>
+        <a className="cursor-pointer">
           <Image src="/assets/linkedIn.svg" width={44} height={44} />
         </a>
       </div>
