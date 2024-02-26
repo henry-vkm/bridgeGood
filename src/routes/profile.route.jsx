@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import ProfileCard from '@/components/profileCard.component';
+import ProjectCard from '@/components/projectCard.component';
 import CareerPathwayCard from '@/components/careerPathwayCard.component';
 
 const ProfileBody = () => {
@@ -20,7 +20,7 @@ const ProfileBody = () => {
           </div>
         </div>
         <div>
-          <ProfileCard />
+          <ProjectCard />
         </div>
       </div>
     </div>

@@ -1,17 +1,19 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const Search = () => {
   return (
     <div>
       <div>
-        <img></img>
-        <input />
+        <Image src="/assets/search.svg" width={24} height={24} />
+        <input placeholder="Job Postings"/>
       </div>
       <div>
-        <img></img>
-        <input />
+        <Image src="/assets/location.svg" width={24} height={24} />
+        <input placeholder="Location" />
       </div>
       <button>
+        Search
       </button>
     </div>
   )

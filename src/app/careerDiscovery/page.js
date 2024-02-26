@@ -4,10 +4,8 @@ import CareerDiscoveryBody from '@/routes/careerDiscovery.route';
 const CareerDiscovery = () => {
   return (
     <div>
-
       <Navigation/>
       <CareerDiscoveryBody/>
-
     </div>
   )
 }
