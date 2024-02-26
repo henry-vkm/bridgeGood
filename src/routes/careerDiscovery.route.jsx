@@ -1,6 +1,8 @@
 import Search from '@/components/search.component';
 import React from 'react';
 import Filter from '../components/careerDiscoveryFilter.component';
+import CareerDiscoveryCard from '@/components/careerDiscoveryCard.component';
+import Footer from '@/components/footer.component';
 
 const CareerDiscoveryBody = () => {
   return (
@@ -11,10 +13,20 @@ const CareerDiscoveryBody = () => {
             <Search />
           </div>
         </div>
-        <div>
-          <Filter/>
+        <div className="flex mt-[100px] justify-between gap-[10px]">
+          <div className="w-[45%]">
+            <Filter/>
+          </div>
+          <div className="flex flex-col gap-[15px]">
+            <h1 className="text-[24px] mb-[10px]">Featured Jobs</h1>
+            <CareerDiscoveryCard />
+            <CareerDiscoveryCard />
+            <CareerDiscoveryCard />
+            <CareerDiscoveryCard />
+          </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
